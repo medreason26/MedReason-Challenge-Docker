@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local outputs
+output/
+outputs/
+**/output/
+**/outputs/
+*.log
+
+# Docker exports
+*.tar
+*.tar.gz
+
+# Large model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local model checkpoints
+MedReason-Docker-Example-Qwen25VL/models/**
+!MedReason-Docker-Example-Qwen25VL/models/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
