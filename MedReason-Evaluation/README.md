@@ -1,3 +1,9 @@
+> **Important: official submissions must perform runtime inference**
+>
+> MedReason uses organizer-side Docker execution on hidden evaluation cases. The submitted Docker container must read the mounted `/input/cases.json` and referenced images, run the participant system at evaluation time, and write a newly generated `/output/results.json`.
+>
+> Containers that only copy, package, or look up precomputed `results.json` files are **not valid** for pre-evaluation or final evaluation. Example `results.json` files and `sample_results.zip` are provided only to illustrate the output format for local validation.
+
 # MedReason-Evaluation
 
 This repository contains the public submission validator and metric aggregation code for the **MedReason Challenge**.
